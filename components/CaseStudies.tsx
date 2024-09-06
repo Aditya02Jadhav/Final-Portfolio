@@ -8,7 +8,7 @@ const CaseStudies: React.FC = () => {
       <h2>Case Study</h2>
       <div className={styles.cards}>
         <div className={styles.card}>
-          <Image src="./Speech-Snap.png" alt="Speech Snap" />
+          <Image src="/Speech-Snap.png" alt="Speech Snap" width={500} height={300} />
           <h3>Speech Snap</h3>
           <p className={styles.category}>ML & Web Dev, Case Study</p>
           <p className={styles.description}>
@@ -16,7 +16,7 @@ const CaseStudies: React.FC = () => {
           </p>
         </div>
         <div className={styles.card}>
-          <Image src="./Micrograd.png" alt="Micrograd" />
+          <Image src="/Micrograd.png" alt="Micrograd" width={500} height={300}/>
           <h3>Micrograd</h3>
           <p className={styles.category}>ML, Case Study</p>
           <p className={styles.description}>
@@ -24,7 +24,7 @@ const CaseStudies: React.FC = () => {
           </p>
         </div>
         <div className={styles.card}>
-          <Image src="./Chatbot.png" alt="Chatbot" />
+          <Image src="/Chatbot.png" alt="Chatbot" width={500} height={300}/>
           <h3>Chatbot</h3>
           <p className={styles.category}>Streamlit, API</p>
           <p className={styles.description}>
@@ -32,7 +32,7 @@ const CaseStudies: React.FC = () => {
           </p>
         </div>
         <div className={styles.card}>
-          <Image src="./Panorama Stitching.png" alt="Panorama Stitching" />
+          <Image src="/Panorama Stitching.png" alt="Panorama Stitching" width={500} height={300}/>
           <h3>Panorama Stitching</h3>
           <p className={styles.category}>Computer Vision, Case Study</p>
           <p className={styles.description}>

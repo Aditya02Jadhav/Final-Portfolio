@@ -9,10 +9,10 @@ const Hero = () => {
         style={{
           width: "100vw",
           marginLeft: "calc(-50vw + 50%)",
-          backgroundImage: "url('/path/to/your/background-image.jpg')",
+          backgroundImage: "url('/background-image.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundBlendMode: "overlay"
+          backgroundBlendMode: "overlay",
         }}
       >
         <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto w-full px-6 md:px-12 space-y-8 md:space-y-0 md:space-x-10">
@@ -37,7 +37,7 @@ const Hero = () => {
               from India.
             </p>
 
-            <a href="/Aaditya Resume.pdf" download="Aaditya_Resume.pdf">
+            <a href="/Aaditya_Resume.pdf" download="Aaditya_Resume.pdf">
               <MagneticButton
                 variant="custom" // use the custom variant
                 size="lg"
@@ -64,15 +64,23 @@ export default Hero;
 
 
 
-
-// Correct code with white background
 // import { FaLocationArrow } from "react-icons/fa6";
 // import { MagneticButton } from "@/components/MagneticButton/index";
 
 // const Hero = () => {
 //   return (
 //     <div>
-//       <div className="h-screen w-full flex items-center justify-center relative">
+//       <div
+//         className="h-screen w-full flex items-center justify-center relative bg-[#f1f1f1]"
+//         style={{
+//           width: "100vw",
+//           marginLeft: "calc(-50vw + 50%)",
+//           backgroundImage: "url('/path/to/your/background-image.jpg')",
+//           backgroundSize: "cover",
+//           backgroundPosition: "center",
+//           backgroundBlendMode: "overlay"
+//         }}
+//       >
 //         <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto w-full px-6 md:px-12 space-y-8 md:space-y-0 md:space-x-10">
 //           <div className="flex flex-col items-start justify-center max-w-lg space-y-6">
 //             <p className="uppercase tracking-widest text-xs dark:text-blue-100">
@@ -84,7 +92,7 @@ export default Hero;
 //             </h1>
 
 //             <p className="text-left md:tracking-wider text-sm md:text-lg lg:text-2xl dark:text-white text-black">
-//               I&apos;m Aaditya, an{" "}
+//               I'm Aaditya, an{" "}
 //               <span className="text-[#fC423D] dark:text-[#f54242]">
 //                 AI Developer
 //               </span>{" "}
@@ -109,7 +117,7 @@ export default Hero;
 //             <img
 //               src="/Linkedin Profile Photo.png"
 //               alt="Aaditya"
-//               className="w-[320px] h-[320px] rounded-[12px] object-cover shadow-lg"
+//               className="w-[400px] h-[400px] rounded-[12px] object-cover"
 //             />
 //           </div>
 //         </div>
