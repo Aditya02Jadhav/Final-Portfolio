@@ -10,7 +10,7 @@ const Hero = () => {
         style={{
           width: "100vw",
           marginLeft: "calc(-50vw + 50%)",
-          backgroundImage: "url('/background-image.jpg')",
+          // backgroundImage: "url('/background-image.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundBlendMode: "overlay",
