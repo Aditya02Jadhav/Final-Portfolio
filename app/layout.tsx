@@ -2,7 +2,6 @@ import { ThemeProvider } from 'next-themes';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import ThemeToggle from './ThemeToggle'; // Correct the import path
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] });
