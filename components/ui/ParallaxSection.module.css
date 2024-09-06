@@ -1,0 +1,114 @@
+/* components/ParallaxSection/ParallaxSection.module.css */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    min-height: 100vh;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
+.header {
+    display: block;
+    width: 100%;
+}
+
+.u-a5 {
+    font-family: Arial;
+    font-size: 37px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.u-b4 {
+    font-family: Arial;
+    font-size: 24px;
+    /* Increased font size */
+    line-height: 30px;
+    /* Adjusted line-height to maintain spacing */
+    letter-spacing: 1.5px;
+    /* Adjusted letter spacing */
+    font-weight: normal;
+    color: #fff;
+    text-align: right;
+    /* Moved text towards the right */
+}
+
+.media-wrapper {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+}
+
+.gradient-overlay {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at 49% 50%, rgba(2, 21, 25, 0.3), rgba(2, 21, 25, 0.6));
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-list {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.carousel-list-item a {
+    display: block;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: calc(20 / 24 * 100%);
+    /* Increased padding to move text towards the right */
+}
+
+.carousel-eyebrow {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.carousel-eyebrow span {
+    position: absolute;
+    left: -70px;
+    /* Adjusted position for the number */
+    top: 2px;
+}
+
+.carousel-title {
+    max-width: 450px;
+}
+
+.carousel-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+}

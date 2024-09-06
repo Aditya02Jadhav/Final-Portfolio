@@ -1,7 +1,12 @@
-body {
-    font-family: 'Varela Round', sans-serif;
-    color: #000;
-    /* Default text color for light mode */
+.how-can-i-help-section {
+    /* background-color: #ffcbcb; */
+    /* background-color: #f8f6f6bf; */
+    background-color: #eff8ff;
+    padding: 50px 20px 120px 20px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
 }
 
 .perspective {
@@ -10,13 +15,13 @@ body {
 }
 
 .card {
-    width: 270px;
+    width: 100%;
+    max-width: 270px;
     height: 413px;
     margin: auto;
-    box-shadow: 0 70px 63px -60px #494848;
+    box-shadow: 0 70px 63px -60px #cba9b7;
     transform-style: preserve-3d;
-    transition: transform .05s linear;
-    position: relative;
+    transition: transform 0.05s linear;
 }
 
 .thumb {
@@ -29,7 +34,7 @@ body {
 }
 
 .thumb::after {
-    background: inherit;
+    background-color: rgba(0, 0, 0, 0.538);
     content: '';
     display: block;
     position: absolute;
@@ -43,22 +48,39 @@ body {
 
 .card h2 {
     position: absolute;
-    top: 10px;
-    left: 15px;
+    top: 18px;
+    left: -13px;
     font-size: 24px;
     font-weight: 700;
     transform: translateZ(80px);
     color: #ffffff;
-    /* Adjust for visibility */
+    /* color: black; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .card span {
     position: absolute;
     bottom: 20px;
-    left: 15px;
-    font-size: 16px;
+    left: 50px;
+    right: -251px;
+    font-size: 19px;
     font-weight: 400;
+    max-width: 300px;
     transform: translateZ(35px);
     color: #ffffff;
-    /* Adjust for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
 }

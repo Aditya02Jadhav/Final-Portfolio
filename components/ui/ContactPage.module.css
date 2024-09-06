@@ -1,0 +1,116 @@
+.contactPageContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.formContainer {
+    flex: 1;
+    background-color: #1C1D20;
+    /* Dark background */
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formContainer h2 {
+    margin-bottom: 1.5rem;
+    font-size: 50px;
+}
+
+.formContainer p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #797979;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formGroup {
+    display: flex;
+    gap: 20px;
+}
+
+.formGroup input {
+    flex: 1;
+    padding: 12px;
+    background-color: #1C1D20;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 14px;
+}
+
+.phoneInput {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.phoneInput span {
+    padding: 12px;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radioOption {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.radioOption input {
+    accent-color: white;
+}
+
+.radioOption label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.submitButton {
+    background-color: #1C1D20;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #ccc;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #1C1D20;
+}
+
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 32px;
+}
