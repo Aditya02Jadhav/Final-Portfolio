@@ -5,7 +5,7 @@ import Image from 'next/image';
 const CreativeProjects: React.FC = () => {
   return (
     <div className={styles.creativeProjects}>
-      <h2>Creative Projects: AI Art, Blender, Game OF Unity Video</h2>
+      <h2>Creative Projects AI Art, Blender, Game OF Unity Video</h2>
       <div className={styles.cards}>
         <div className={styles.card}>
           <Image src="/Coming Soon.png" alt="AI Art Project" width={500} height={300}/>

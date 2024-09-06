@@ -26,11 +26,11 @@ const Hero = () => {
             </h1>
 
             <p className="text-left md:tracking-wider text-sm md:text-lg lg:text-2xl dark:text-white text-black">
-              I'm Aaditya, an{" "}
+              I&apos;m Aaditya, an{" "}
               <span className="text-[#fC423D] dark:text-[#f54242]">
                 AI Developer
               </span>{" "}
-              & part-time{" "}
+              &amp; part-time{" "}
               <span className="text-[#fC423D] dark:text-[#f54242]">
                 Content Creator
               </span>{" "}

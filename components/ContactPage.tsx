@@ -33,7 +33,7 @@ const ContactPage: React.FC = () => {
               <div className={styles.radioOption}>
                 <input type="radio" id="solo" name="employees" value="solo" />
                 <label htmlFor="solo">
-                  <strong>I'm a solo creator</strong>
+                  <strong>I&apos;m a solo creator</strong>
                   <span>I need to set up an account for myself.</span>
                 </label>
               </div>
