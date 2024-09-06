@@ -4,9 +4,7 @@ import { useEffect } from 'react';
 import Scrollbar from 'smooth-scrollbar';
 import PreloaderAnimation from '@/components/Preloader';
 import Hero from '@/components/Hero';
-import HowCanIHelp from '@/components/HowCanIHelp';
 import Footer from '@/components/Footer';
-import RecentProjects from '@/components/RecentProjects';
 import Navbar from '@/components/ui/Navbar';
 import CoreCompetencies from '@/components/CoreCompetencies';
 import ParallaxSection from '@/components/ParallaxSection'; // Import the ParallaxSection component
