@@ -1,5 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { MagneticButton } from "@/components/MagneticButton/index";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -48,10 +49,12 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/Linkedin Profile Photo.png"
               alt="Aaditya"
               className="w-[400px] h-[400px] rounded-[12px] object-cover"
+              width={500} 
+              height={300}
             />
           </div>
         </div>

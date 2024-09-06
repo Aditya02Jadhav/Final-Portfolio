@@ -9,7 +9,7 @@ const ContactPage: React.FC = () => {
         <h2>Chat with me</h2>
         <p>
           Need help with something? Want a demo? Get in touch with our friendly
-          team and we'll get in touch within 2 hours.
+          team and we&apos;ll get in touch within 2 hours.
         </p>
 
         <form className={styles.contactForm}>

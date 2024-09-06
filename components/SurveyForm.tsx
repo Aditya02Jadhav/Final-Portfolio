@@ -142,7 +142,7 @@ const SurveyForm: React.FC = () => {
 
       {step === 5 && (
         <div className={styles.questionContainer}>
-          <p>We'd love to hear your feedback (optional):</p>
+          <p>We&apos;d love to hear your feedback (optional):</p>
           <textarea
             value={feedback}
             onChange={(e) => setFeedback(e.target.value)}
