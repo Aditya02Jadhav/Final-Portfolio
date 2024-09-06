@@ -1,6 +1,7 @@
 import React from 'react';
 import './ui/Footer.css';
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-right">
-          <img src="./aj-logo-removebg-preview.png" alt="Logo" className="footer-logo" />
+          <Image src="/aj-logo-removebg-preview.png" alt="Logo" className="footer-logo" width={300} height={200}/>
         </div>
       </div>
       <div className="footer-bottom">

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ui/CreativeProjects.module.css';
+import Image from 'next/image';
 
 const CreativeProjects: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const CreativeProjects: React.FC = () => {
       <h2>Creative Projects: AI Art, Blender, Game OF Unity Video</h2>
       <div className={styles.cards}>
         <div className={styles.card}>
-          <img src="/Coming Soon.png" alt="AI Art Project" />
+          <Image src="/Coming Soon.png" alt="AI Art Project" width={500} height={300}/>
           <h3>AI Art</h3>
           <p className={styles.category}>AI Design, Art</p>
           <p className={styles.description}>
@@ -15,7 +16,7 @@ const CreativeProjects: React.FC = () => {
           </p>
         </div>
         <div className={styles.card}>
-          <img src="/Coming Soon.png" alt="Blender Project" />
+          <Image src="/Coming Soon.png" alt="Blender Project" width={500} height={300}/>
           <h3>Blender</h3>
           <p className={styles.category}>3D Modeling, Animation</p>
           <p className={styles.description}>
@@ -23,7 +24,7 @@ const CreativeProjects: React.FC = () => {
           </p>
         </div>
          <div className={styles.card}>
-          <img src="/Coming Soon.png" alt="Blender Project" />
+          <Image src="/Coming Soon.png" alt="Blender Project" width={500} height={300}/>
           <h3>Blender</h3>
           <p className={styles.category}>3D Modeling, Animation</p>
           <p className={styles.description}>
@@ -31,7 +32,7 @@ const CreativeProjects: React.FC = () => {
           </p>
         </div>
          <div className={styles.card}>
-          <img src="/Coming Soon.png" alt="Blender Project" />
+          <Image src="/Coming Soon.png" alt="Blender Project" width={500} height={300}/>
           <h3>Blender</h3>
           <p className={styles.category}>3D Modeling, Animation</p>
           <p className={styles.description}>
